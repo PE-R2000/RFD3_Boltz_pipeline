@@ -1,4 +1,8 @@
 # RFD3_Boltz_pipeline
+## Integrated pipeline (RFD3 + MPNN + Boltz)
+
+This notebook implements an integrated pipeline that uses `RFdiffusion3` and `ProteinMPNN` to design new sequences, and uses `Boltz` to validate folding and rank designs by predicted affinity and biophysical metrics. The workflow produces candidate sequences with `RFdiffusion3`, refines/designs sequences with `ProteinMPNN`, and evaluates/filters designs with `Boltz-based affinity` and folding checks.
+
 ## Practical Guide to the Controls in This Notebook
 
 
