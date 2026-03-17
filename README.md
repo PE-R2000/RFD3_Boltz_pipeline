@@ -1,10 +1,18 @@
 # RFD3_Boltz_pipeline
+### 🏗️ Work Under Construction
+This project is currently under active development. Some features may be experimental or subject to frequent updates.
+
+![Construction Site](https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1000&auto=format&fit=crop)
+
 ## Integrated pipeline (RFD3 + MPNN + Boltz)
 
 This notebook implements an integrated pipeline that uses `RFdiffusion3` and `ProteinMPNN` to design new sequences, and uses `Boltz` to validate folding and rank designs by predicted affinity and biophysical metrics. The workflow produces candidate sequences with `RFdiffusion3`, refines/designs sequences with `ProteinMPNN`, and evaluates/filters designs with `Boltz-based affinity` and folding checks.
 
 
-Run the interactive Colab notebook at: ![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg](https://colab.research.google.com/github/PE-R2000/RFD3_Boltz_pipeline/blob/main/RFD3_pipeline.ipynb))
+### Quick Start
+Run the interactive Colab notebook here:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PE-R2000/RFD3_Boltz_pipeline/blob/main/RFD3_pipeline.ipynb)
 
 ## Practical Guide to the Controls in This Notebook
 
